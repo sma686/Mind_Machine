@@ -48,7 +48,7 @@ classifier.fit(X_train, y_train)
 # Predicting the Test set results
 y_pred = classifier.predict(X_test)
 
-#If y_test is available then
+#If y_test is available then the below code can be run
 """
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix
